@@ -62,7 +62,7 @@ body {
 	font-weight:300;
 }
 p, ul, ol {
-	margin-bottom:40px;
+	margin-bottom:30px;
 	font-size:18px;
 	font-weight:300;
 	line-height:34px;
@@ -91,16 +91,20 @@ strong {
 }
 .container, .pagination {
 	position:relative;
-	width:500px;
+	width:700px;
 	margin:0 auto;
 }
 .sidebar {
 	position:absolute;
-	left:-190px;
+	left:-175px;
 	width:130px;
 }
-.comments, footer {
-	padding:120px 0;
+.comments {
+	padding:40px 0;
+}
+footer {
+	padding-top:120px;
+	padding-bottom:5px;
 }
 .text-center {
 	text-align:center;
@@ -220,7 +224,7 @@ article {
 	animation-delay:1.25s;
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
-	padding:80px 0 40px;
+	padding:40px 0;
 }
 article pre {
 	overflow:scroll;
@@ -249,7 +253,7 @@ article p > img {
 }
 .article-image {
 	width:940px;
-	margin:80px -220px;
+	margin:38px -120px;
 }
 article h1, article h2, article h3 {
 	font-weight:300;
@@ -287,7 +291,7 @@ article input:focus {
 }
 .author {
 	border-top: 1px solid #ddd;
-	padding: 40px 0 80px;
+	padding: 40px 0;
 }
 .author img {
 	border-radius: 50%;
@@ -332,7 +336,7 @@ footer {
 	line-height: 40px;
 	font-weight:400;
 	color:#464c4c;
-	margin: 0 -80px 20px;
+	margin: 0 -80px;
 }
 .theme {
 	font-weight: 600;
