@@ -119,18 +119,22 @@ footer {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
 }
+.big-logo {
+	opacity: 0.9;
+	position:relative;
+}
 .content, .brand {
 	display:block;
 	float:left;
 }
 .brand {
 	border:none;
-	padding:10px 0;
+	padding:20px 0;
 	line-height:0;
 }
 .brand img {
 	width:auto;
-	height:70px;
+	height:50px;
 }
 .content {
 	line-height:90px;
@@ -383,7 +387,7 @@ header .share a {
 	color:#464c4c;
 }
 .blog-cover {
-	padding: 180px 8%;
+	padding: 50px 8%;
 	text-align: center;
 }
 .blog-title {
